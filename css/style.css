@@ -20,6 +20,15 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.centered-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
 /* header */
 .header {
     margin-bottom: 30px;
@@ -50,10 +59,7 @@ nav{
     height: 500px;
     margin-bottom: 30px;
     background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    color: white;
 }
 
 .hero-txt {
