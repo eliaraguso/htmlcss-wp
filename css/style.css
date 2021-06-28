@@ -17,11 +17,32 @@
     margin: auto;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /* header */
 .header {
-    background-color: orchid;
-    height: 140px;
     margin-bottom: 30px;
+}
+
+.logo {
+    border-right: 1px solid gainsboro;
+    padding-right: 20px;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.link-nav {
+    display: inline-block;
+    color: darkgray;
+}
+
+nav{
+    word-spacing: 10px;
 }
 
 /* first section khaki  */
