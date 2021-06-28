@@ -47,9 +47,20 @@ nav{
 
 /* first section khaki  */
 .hero {
-    background-color: khaki;
     height: 500px;
     margin-bottom: 30px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-txt {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    width: 50%;
 }
 
 .leadership {
