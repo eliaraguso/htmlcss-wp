@@ -71,7 +71,6 @@ nav{
 }
 
 .leadership-title {
-    background-color: lightblue;
     height: 85px;
 }
 
@@ -92,6 +91,9 @@ nav{
     margin: 0 20px;
 }
 
+.img-left, .img-center, .img-right{
+    position: relative;
+}
 .img-left {
     height: 200px;
     background-image: url(../img/img-1.jpg);
@@ -107,6 +109,15 @@ nav{
     background-image: url(../img/img-3.jpg);
 }
 
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+}
 /* footer */
 .footer {
     text-align: center;
