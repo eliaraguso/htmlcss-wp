@@ -52,7 +52,11 @@ body {
 
 .link-nav {
     display: inline-block;
+}
+
+.menu .link-nav a {
     color: darkgray;
+    text-decoration: none;
 }
 
 nav{
